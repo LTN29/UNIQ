@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "products": "Sản phẩm",
+    "solutions": "Giải pháp cho gia đình",
+    "technology": "Công nghệ",
+    "about": "Về UNIQ",
+    "news": "Tin tức",
+    "support": "Hỗ trợ",
+    "explore": "Khám phá",
+    "warranty": "Bảo hành",
+    "uniq": "UNIQ"
+  },
+  "hero": {
+    "subtitle": "UNIQ // MODERN LIVING",
+    "title1": "Chính xác trong",
+    "title2": "công năng.",
+    "title3": "Tinh tế trong",
+    "title4": "từng không gian.",
+    "description": "Thiết bị gia dụng mang ngôn ngữ thiết kế châu Âu, kiến tạo chuẩn mực mới cho không gian sống hiện đại.",
+    "explore": "Khám phá sản phẩm",
+    "tech": "Công nghệ"
+  },
+  "introSection": {
+    "title": "Được tạo ra để hòa vào cuộc sống.",
+    "text": "Chúng tôi tin rằng thiết bị tốt nhất là thiết bị bạn không cần phải bận tâm. Tối giản trong thiết kế, tối ưu trong hiệu năng, UNIQ mang lại không gian tĩnh lặng và sự thảnh thơi cho những người bạn yêu thương."
+  },
+  "trust": {
+    "shipping": "Giao hàng toàn quốc",
+    "warranty": "Bảo hành điện tử",
+    "support": "Hỗ trợ trực tuyến",
+    "payment": "Thanh toán linh hoạt"
+  },
+  "eco": {
+    "vacuum": {
+      "title": "Máy hút bụi",
+      "desc": "Sức mạnh làm sạch vượt trội"
+    },
+    "waterFlosser": {
+      "title": "Máy tăm nước",
+      "desc": "Chăm sóc răng miệng tối ưu"
+    },
+    "fan": {
+      "title": "Quạt thông minh",
+      "desc": "Làm mát không gian với luồng gió tự nhiên"
+    },
+    "steamCleaner": {
+      "title": "Máy làm sạch hơi nước",
+      "desc": "Hướng đến trải nghiệm vệ sinh tiện lợi hơn"
+    },
+    "lamp": {
+      "title": "Đèn",
+      "desc": "Nguồn sáng hoàn hảo cho không gian hiện đại"
+    }
+  },
+  "featured": {
+    "sectionTitle": "Ngôn ngữ Thiết kế",
+    "title1": "Hiệu suất mạnh mẽ.",
+    "title2": "Tinh tế",
+    "title3": " trong từng chi tiết.",
+    "f1": {
+      "title": "Hiệu suất có chủ đích",
+      "desc": "Hiệu năng được tối ưu cho những nhu cầu sử dụng thực tế trong gia đình."
+    },
+    "f2": {
+      "title": "Trực quan trong từng thao tác",
+      "desc": "Mỗi chi tiết được thiết kế để dễ hiểu, dễ sử dụng và dễ làm quen."
+    },
+    "f3": {
+      "title": "Hoàn thiện cho cuộc sống hiện đại",
+      "desc": "Tỷ lệ, vật liệu và cách vận hành được cân bằng trong một thiết kế nhất quán."
+    }
+  },
+  "techSection": {
+    "title": "Công nghệ được thiết kế để biến mất trong trải nghiệm.",
+    "t1": "Hiệu suất vận hành",
+    "t2": "Hệ thống lọc",
+    "t3": "Quản lý năng lượng",
+    "t4": "Kiểm soát âm thanh"
+  },
+  "supportSection": {
+    "title": "Hỗ trợ khách hàng",
+    "s1": {
+      "title": "Kích hoạt bảo hành",
+      "desc": "Kích hoạt nhanh chóng quyền lợi của bạn."
+    },
+    "s2": {
+      "title": "Kiểm tra hạn bảo hành",
+      "desc": "Tra cứu thông tin thiết bị."
+    },
+    "s3": {
+      "title": "Theo dõi phiếu bảo hành",
+      "desc": "Cập nhật tiến độ sửa chữa."
+    }
+  },
+  "newsSection": {
+    "title": "Tin tức & Sự kiện",
+    "n1": {
+      "cat": "Sản phẩm mới",
+      "title": "Ra mắt thế hệ máy hút bụi không dây đột phá 2026"
+    },
+    "n2": {
+      "cat": "Tips & Tricks",
+      "title": "5 cách bảo quản pin thiết bị gia dụng"
+    },
+    "n3": {
+      "cat": "Sự kiện",
+      "title": "UNIQ tại triển lãm công nghệ"
+    }
+  },
+  "footer": {
+    "desc": "Tiên phong công nghệ cho cuộc sống hiện đại.",
+    "products": "Sản phẩm",
+    "support": "Hỗ trợ",
+    "company": "Công ty",
+    "about": "Về chúng tôi",
+    "contact": "Liên hệ",
+    "legal": "Pháp lý",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "copyright": "© 2026 UNIQ. Tất cả các quyền được bảo lưu."
+  },
+  "ecosystemSection": {
+    "title1": "Hệ sinh thái cho ",
+    "title2": "ngôi nhà hiện đại.",
+    "explore": "Khám phá"
+  },
+  "newsSection": {
+    "sectionTitle": "Tin tức & Sự kiện",
+    "date": "14 Tháng 7, 2026",
+    "n1": { "cat": "Sản phẩm mới", "title": "Ra mắt thế hệ máy hút bụi không dây đột phá 2026" },
+    "n2": { "cat": "Tips & Tricks", "title": "5 cách bảo quản pin thiết bị gia dụng" },
+    "n3": { "cat": "Sự kiện", "title": "UNIQ tại triển lãm công nghệ" }
+  },
+  "supportSection": {
+    "subtitle": "Dịch vụ khách hàng",
+    "title1": "Đồng hành cùng bạn trong từng khoảnh khắc ",
+    "title2": "trải nghiệm.",
+    "explore": "Khám phá",
+    "s1": { "title": "Kích hoạt bảo hành", "desc": "Kích hoạt nhanh chóng quyền lợi của bạn." },
+    "s2": { "title": "Kiểm tra hạn bảo hành", "desc": "Tra cứu thông tin thiết bị." },
+    "s3": { "title": "Theo dõi phiếu bảo hành", "desc": "Cập nhật tiến độ sửa chữa." }
+  },
+  "appSection": {
+    "subtitle1": "Ứng dụng UNIQ",
+    "subtitle2": "(Đang giai đoạn phát triển)",
+    "title1": "Một trải nghiệm ",
+    "title2": "xuyên suốt",
+    "title3": ", từ thiết bị đến dịch vụ.",
+    "desc": "Hệ sinh thái UNIQ không dừng lại ở phần cứng. Chúng tôi kết nối mọi thứ qua một giao diện duy nhất, tối giản và thông minh.",
+    "f1": {
+      "title": "Kiểm soát toàn diện",
+      "desc": "Quản lý toàn bộ hệ sinh thái thiết bị UNIQ từ xa với giao diện điều khiển trung tâm trực quan và mượt mà."
+    },
+    "f2": {
+      "title": "Trí tuệ cá nhân hóa",
+      "desc": "Hệ thống tự động học hỏi thói quen sinh hoạt và đề xuất các kịch bản tự động hóa phù hợp với phong cách sống."
+    },
+    "f3": {
+      "title": "Bảo mật đa lớp",
+      "desc": "An toàn dữ liệu tuyệt đối với tiêu chuẩn mã hóa đầu cuối, đảm bảo không gian riêng tư của bạn luôn được bảo vệ."
+    }
+  }
+}

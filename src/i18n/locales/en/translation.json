@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "solutions": "Solutions for Home",
+    "technology": "Technology",
+    "about": "About UNIQ",
+    "news": "News",
+    "support": "Support",
+    "explore": "Explore",
+    "warranty": "Warranty",
+    "uniq": "UNIQ"
+  },
+  "hero": {
+    "subtitle": "UNIQ // MODERN LIVING",
+    "title1": "Precision in",
+    "title2": "function.",
+    "title3": "Elegance in",
+    "title4": "every space.",
+    "description": "Home appliances with European design language, setting new standards for modern living spaces.",
+    "explore": "Explore Products",
+    "tech": "Technology"
+  },
+  "introSection": {
+    "title": "Created to blend into life.",
+    "text": "We believe the best appliance is the one you don't have to worry about. Minimalist in design, optimal in performance, UNIQ brings a quiet space and peace of mind for the ones you love."
+  },
+  "trust": {
+    "shipping": "Nationwide Delivery",
+    "warranty": "E-Warranty",
+    "support": "Online Support",
+    "payment": "Flexible Payment"
+  },
+  "eco": {
+    "vacuum": {
+      "title": "Vacuum Cleaner",
+      "desc": "Superior cleaning power"
+    },
+    "waterFlosser": {
+      "title": "Water Flosser",
+      "desc": "Optimal oral care"
+    },
+    "fan": {
+      "title": "Smart Fan",
+      "desc": "Cool your space with natural breeze"
+    },
+    "steamCleaner": {
+      "title": "Steam Cleaner",
+      "desc": "Towards a more convenient cleaning experience"
+    },
+    "lamp": {
+      "title": "Lamp",
+      "desc": "Perfect light source for modern spaces"
+    }
+  },
+  "featured": {
+    "sectionTitle": "Design Language",
+    "title1": "Powerful performance.",
+    "title2": "Elegant",
+    "title3": " in every detail.",
+    "f1": {
+      "title": "Purposeful Performance",
+      "desc": "Performance optimized for real-world household needs."
+    },
+    "f2": {
+      "title": "Intuitive in Every Interaction",
+      "desc": "Every detail is designed to be easy to understand, use, and familiarize with."
+    },
+    "f3": {
+      "title": "Perfected for Modern Life",
+      "desc": "Proportions, materials, and operation balanced in a consistent design."
+    }
+  },
+  "techSection": {
+    "title": "Technology designed to disappear into the experience.",
+    "t1": "Operational Performance",
+    "t2": "Filtration System",
+    "t3": "Power Management",
+    "t4": "Acoustic Control"
+  },
+  "supportSection": {
+    "title": "Customer Support",
+    "s1": {
+      "title": "Activate Warranty",
+      "desc": "Quickly activate your benefits."
+    },
+    "s2": {
+      "title": "Check Warranty Status",
+      "desc": "Look up device information."
+    },
+    "s3": {
+      "title": "Track Warranty Ticket",
+      "desc": "Update repair progress."
+    }
+  },
+  "newsSection": {
+    "title": "News & Events",
+    "n1": {
+      "cat": "New Product",
+      "title": "Launch of the breakthrough 2026 cordless vacuum generation"
+    },
+    "n2": {
+      "cat": "Tips & Tricks",
+      "title": "5 ways to preserve home appliance batteries"
+    },
+    "n3": {
+      "cat": "Event",
+      "title": "UNIQ at the technology exhibition"
+    }
+  },
+  "footer": {
+    "desc": "Pioneering technology for modern living.",
+    "products": "Products",
+    "support": "Support",
+    "company": "Company",
+    "about": "About Us",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2026 UNIQ. All rights reserved."
+  },
+  "ecosystemSection": {
+    "title1": "Ecosystem for ",
+    "title2": "the modern home.",
+    "explore": "Explore"
+  },
+  "newsSection": {
+    "sectionTitle": "News & Events",
+    "date": "July 14, 2026",
+    "n1": { "cat": "New Product", "title": "Launch of breakthrough cordless vacuum 2026" },
+    "n2": { "cat": "Tips & Tricks", "title": "5 ways to maintain appliance battery" },
+    "n3": { "cat": "Event", "title": "UNIQ at tech expo" }
+  },
+  "supportSection": {
+    "subtitle": "Customer Service",
+    "title1": "With you in every moment of the ",
+    "title2": "experience.",
+    "explore": "Explore",
+    "s1": { "title": "Activate Warranty", "desc": "Quickly activate your benefits." },
+    "s2": { "title": "Check Warranty Status", "desc": "Look up device information." },
+    "s3": { "title": "Track Repair Status", "desc": "Update repair progress." }
+  },
+  "appSection": {
+    "subtitle1": "UNIQ App",
+    "subtitle2": "(Under development)",
+    "title1": "A ",
+    "title2": "seamless",
+    "title3": " experience, from device to service.",
+    "desc": "The UNIQ ecosystem doesn't stop at hardware. We connect everything through a single, minimalist, and smart interface.",
+    "f1": {
+      "title": "Comprehensive control",
+      "desc": "Manage the entire UNIQ device ecosystem remotely with an intuitive and smooth central control interface."
+    },
+    "f2": {
+      "title": "Personalized intelligence",
+      "desc": "The system automatically learns living habits and suggests automation scenarios that suit your lifestyle."
+    },
+    "f3": {
+      "title": "Multi-layer security",
+      "desc": "Absolute data safety with end-to-end encryption standards, ensuring your private space is always protected."
+    }
+  }
+}
