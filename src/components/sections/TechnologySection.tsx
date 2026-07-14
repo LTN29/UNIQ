@@ -4,6 +4,7 @@ import { useGSAP } from '@gsap/react';
 import { useTranslation } from 'react-i18next';
 import { Container } from '@/components/ui/Container';
 import { technologyData } from '@/data';
+import { IMAGES } from '@/constants/images';
 
 export function TechnologySection() {
   const { t } = useTranslation();
@@ -76,7 +77,7 @@ export function TechnologySection() {
       <div className="absolute inset-0 z-0 flex justify-end items-center">
         <div ref={motorRef} className="relative w-full h-[70%] flex justify-end items-center">
           <img 
-            src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/UNIQ_OPTIMIZED/motor.webp" 
+            src={IMAGES.motor} 
             alt="Core Technology" 
             className="w-full h-full object-contain object-right opacity-90"
           />

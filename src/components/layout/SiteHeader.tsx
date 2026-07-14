@@ -5,6 +5,8 @@ import { useGSAP } from '@gsap/react';
 import { useTranslation } from 'react-i18next';
 
 import { Container } from '@/components/ui/Container';
+import { NavigationItem } from '@/types';
+import { IMAGES } from '@/constants/images';
 import { mainNavigation } from '@/config/navigation';
 import { siteConfig } from '@/config/site';
 import { useLockBodyScroll } from '@/hooks/useLockBodyScroll';
@@ -91,7 +93,7 @@ export function SiteHeader() {
           className="flex items-center gap-2 relative z-50 transition-transform hover:scale-105"
           aria-label="Trang chủ UNIQ"
         >
-          <img src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/UNIQ_OPTIMIZED/uniq-logo---circle-with-color.webp" alt="UNIQ Logo" className="h-8 md:h-10 w-auto" />
+          <img src={IMAGES.logo} alt="UNIQ Logo" className="h-8 md:h-10 w-auto" />
         </a>
 
         <div ref={navRef} className="hidden items-center gap-7 lg:flex">

@@ -4,6 +4,7 @@ import { useGSAP } from '@gsap/react';
 import { useTranslation } from 'react-i18next';
 import { Container } from '@/components/ui/Container';
 import { VisualPlaceholder } from '@/components/ui/VisualPlaceholder';
+import { IMAGES } from '@/constants/images';
 
 export function LifestyleSection() {
   const { t } = useTranslation();
@@ -79,7 +80,7 @@ export function LifestyleSection() {
             variant="white"
             label="UNIQ Space"
             className="w-full h-full border-none rounded-none"
-            src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/UNIQ_OPTIMIZED/walllogoseries12.webp"
+            src={IMAGES.lifestyleHero}
             imageMode="cover"
             assetSpec={{
               type: 'lifestyle',

@@ -3,6 +3,7 @@ import { gsap } from '@/animations/gsap';
 import { useGSAP } from '@gsap/react';
 import { useTranslation } from 'react-i18next';
 import { Container } from '@/components/ui/Container';
+import { IMAGES } from '@/constants/images';
 
 export function AppEcosystemSection() {
   const { t } = useTranslation();
@@ -126,7 +127,7 @@ export function AppEcosystemSection() {
           >
             {/* Screen */}
             <div className="w-full h-full bg-pure-white rounded-[2.5rem] overflow-hidden relative flex flex-col items-center justify-center">
-              <img src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/UNIQ_OPTIMIZED/uniq-logo---circle-with-color.webp" alt="UNIQ App Logo" className="w-28 h-28 object-contain" />
+              <img src={IMAGES.logo} alt="UNIQ App Logo" className="w-28 h-28 object-contain" />
             </div>
           </div>
         </div>

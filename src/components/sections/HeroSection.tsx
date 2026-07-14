@@ -4,6 +4,7 @@ import { useGSAP } from '@gsap/react';
 import { useTranslation } from 'react-i18next';
 import { Container } from '@/components/ui/Container';
 import { VisualPlaceholder } from '@/components/ui/VisualPlaceholder';
+import { IMAGES } from '@/constants/images';
 
 export function HeroSection() {
   const { t } = useTranslation();
@@ -153,7 +154,7 @@ export function HeroSection() {
                 variant="white"
                 label="Hero Exhibition"
                 className="w-full h-full border-none rounded-none"
-                src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/UNIQ_OPTIMIZED/bannerlight.webp"
+                src={IMAGES.bannerLight}
                 imageMode="cover"
                 assetSpec={{
                   type: 'studio',
