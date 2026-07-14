@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { Container } from '@/components/ui/Container';
 import { VisualPlaceholder } from '@/components/ui/VisualPlaceholder';
 import { featuredFeatures } from '@/data';
+import { IMAGES } from '@/constants/images';
 
 export function FeaturedProductSection() {
   const { t } = useTranslation();
@@ -124,7 +125,7 @@ export function FeaturedProductSection() {
                     variant="white"
                     label="Macro Detail"
                     className="w-full h-full border-none rounded-none"
-                    src={`/images/products/scoll${activeIndex + 1}.png`}
+                    src={IMAGES.featuredScroll[activeIndex]}
                     imageMode="contain"
                     assetSpec={{
                       type: 'product',
