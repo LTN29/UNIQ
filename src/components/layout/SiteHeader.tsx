@@ -5,7 +5,6 @@ import { useGSAP } from '@gsap/react';
 import { useTranslation } from 'react-i18next';
 
 import { Container } from '@/components/ui/Container';
-import { NavigationItem } from '@/types';
 import { IMAGES } from '@/constants/images';
 import { mainNavigation } from '@/config/navigation';
 import { siteConfig } from '@/config/site';
