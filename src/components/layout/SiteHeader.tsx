@@ -91,7 +91,7 @@ export function SiteHeader() {
           className="flex items-center gap-2 relative z-50 transition-transform hover:scale-105"
           aria-label="Trang chủ UNIQ"
         >
-          <img src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/logo.webp" alt="UNIQ Logo" className="h-8 md:h-10 w-auto" />
+          <img src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/UNIQ_OPTIMIZED/uniq-logo---circle-with-color.webp" alt="UNIQ Logo" className="h-8 md:h-10 w-auto" />
         </a>
 
         <div ref={navRef} className="hidden items-center gap-7 lg:flex">

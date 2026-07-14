@@ -79,7 +79,7 @@ export function LifestyleSection() {
             variant="white"
             label="UNIQ Space"
             className="w-full h-full border-none rounded-none"
-            src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/hero.webp"
+            src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/UNIQ_OPTIMIZED/walllogoseries12.webp"
             imageMode="cover"
             assetSpec={{
               type: 'lifestyle',

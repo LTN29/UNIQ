@@ -153,7 +153,7 @@ export function HeroSection() {
                 variant="white"
                 label="Hero Exhibition"
                 className="w-full h-full border-none rounded-none"
-                src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/bannerlight.webp"
+                src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/UNIQ_OPTIMIZED/bannerlight.webp"
                 imageMode="cover"
                 assetSpec={{
                   type: 'studio',
