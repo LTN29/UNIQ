@@ -10,7 +10,7 @@ export const trustData = [
 const generateImageSequence = (folder: string, main: string, hoverCount: number) => {
   const images = [`/images/supabase-ready/${folder}/${main}`];
   for (let i = 1; i <= hoverCount; i++) {
-    images.push(`/images/supabase-ready/${folder}/hover-${i}.png`);
+    images.push(`https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/supabase-ready/${folder}/hover-${i}.webp`);
   }
   return images;
 };
@@ -22,7 +22,7 @@ export const productEcosystemData = [
     description: 'eco.vacuum.desc',
     colSpan: 2,
     rowSpan: 2,
-    imageSrcs: generateImageSequence('vacuum', 'main.png', 2),
+    imageSrcs: generateImageSequence('vacuum', 'main.webp', 2),
   },
   {
     id: '2',
@@ -30,7 +30,7 @@ export const productEcosystemData = [
     description: 'eco.waterFlosser.desc',
     colSpan: 1,
     rowSpan: 1,
-    imageSrcs: generateImageSequence('water-flosser', 'main.png', 7),
+    imageSrcs: generateImageSequence('water-flosser', 'main.webp', 7),
   },
   {
     id: '3',
@@ -38,7 +38,7 @@ export const productEcosystemData = [
     description: 'eco.fan.desc',
     colSpan: 1,
     rowSpan: 1,
-    imageSrcs: generateImageSequence('fan', 'main.png', 11),
+    imageSrcs: generateImageSequence('fan', 'main.webp', 11),
   },
   {
     id: '4',
@@ -46,7 +46,7 @@ export const productEcosystemData = [
     description: 'eco.steamCleaner.desc',
     colSpan: 2,
     rowSpan: 1,
-    imageSrcs: generateImageSequence('steam-cleaner', 'main.png', 4),
+    imageSrcs: generateImageSequence('steam-cleaner', 'main.webp', 4),
   },
   {
     id: '5',
@@ -54,7 +54,7 @@ export const productEcosystemData = [
     description: 'eco.lamp.desc',
     colSpan: 1,
     rowSpan: 1,
-    imageSrcs: generateImageSequence('lamp', 'main.png', 3),
+    imageSrcs: generateImageSequence('lamp', 'main.webp', 3),
   },
 ];
 
@@ -63,19 +63,19 @@ export const featuredFeatures = [
     id: '1',
     title: 'featured.f1.title',
     description: 'featured.f1.desc',
-    imageSrc: '/images/products/scoll1.png',
+    imageSrc: 'https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/products/scoll1.webp',
   },
   {
     id: '2',
     title: 'featured.f2.title',
     description: 'featured.f2.desc',
-    imageSrc: '/images/products/scoll2.png',
+    imageSrc: 'https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/products/scoll2.webp',
   },
   {
     id: '3',
     title: 'featured.f3.title',
     description: 'featured.f3.desc',
-    imageSrc: '/images/products/scoll3.png',
+    imageSrc: 'https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/products/scoll3.webp',
   },
 ];
 
@@ -113,20 +113,20 @@ export const newsData = [
     category: 'newsSection.n1.cat',
     title: 'newsSection.n1.title',
     size: 'large',
-    imageSrc: '/images/news-1.png',
+    imageSrc: 'https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/news-1.webp',
   },
   {
     id: '2',
     category: 'newsSection.n2.cat',
     title: 'newsSection.n2.title',
     size: 'small',
-    imageSrc: '/images/products/macro-2.png',
+    imageSrc: 'https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/products/macro-2.webp',
   },
   { 
     id: '3', 
     category: 'newsSection.n3.cat', 
     title: 'newsSection.n3.title', 
     size: 'small',
-    imageSrc: '/images/news-3.png',
+    imageSrc: 'https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/news-3.webp',
   },
 ];

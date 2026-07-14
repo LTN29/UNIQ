@@ -76,7 +76,7 @@ export function TechnologySection() {
       <div className="absolute inset-0 z-0 flex justify-end items-center">
         <div ref={motorRef} className="relative w-full h-[70%] flex justify-end items-center">
           <img 
-            src="/images/motor.png" 
+            src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/motor.webp" 
             alt="Core Technology" 
             className="w-full h-full object-contain object-right opacity-90"
           />

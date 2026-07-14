@@ -126,7 +126,7 @@ export function AppEcosystemSection() {
           >
             {/* Screen */}
             <div className="w-full h-full bg-pure-white rounded-[2.5rem] overflow-hidden relative flex flex-col items-center justify-center">
-              <img src="/images/logo.png" alt="UNIQ App Logo" className="w-28 h-28 object-contain" />
+              <img src="https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/PUBLIC_IMAGES_OPTIMIZED/logo.webp" alt="UNIQ App Logo" className="w-28 h-28 object-contain" />
             </div>
           </div>
         </div>
