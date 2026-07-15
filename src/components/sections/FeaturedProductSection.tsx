@@ -119,7 +119,7 @@ export function FeaturedProductSection() {
               <div className="absolute left-6 top-6 w-[1px] h-[90px] bg-silver/30 overflow-hidden hidden lg:block z-20">
                 <div className="w-full h-[12px] bg-brand-red red-indicator" />
               </div>
-              <div className="w-full h-full overflow-hidden relative bg-surface">
+              <div className="w-full h-full overflow-hidden relative bg-transparent">
                 <div ref={visualPlaceholderRef} className="w-full h-full origin-bottom">
                   <VisualPlaceholder
                     variant="white"

@@ -133,7 +133,7 @@ export function ProductEcosystemSection() {
               >
                 {/* Visual Column */}
                 <div className="w-full lg:w-1/2">
-                  <div className="editorial-visual relative w-full overflow-hidden bg-surface aspect-square">
+                  <div className="editorial-visual relative w-full overflow-hidden bg-transparent aspect-square">
                     <div className="visual-inner w-full h-full">
                       <VisualPlaceholder
                         variant="silver"

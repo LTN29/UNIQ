@@ -57,9 +57,9 @@ export function VisualPlaceholder({
   };
 
   const variants = {
-    silver: 'bg-silver/20 border-border text-muted-foreground',
+    silver: 'bg-transparent border-border text-muted-foreground',
     graphite: 'bg-graphite text-surface border-graphite',
-    white: 'bg-pure-white border-border text-muted-foreground',
+    white: 'bg-transparent border-border text-muted-foreground',
   };
 
   // Adjust padding: use very small padding so images are large!
