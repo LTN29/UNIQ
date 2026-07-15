@@ -1,7 +1,56 @@
-node_modules
-dist
-.env
-.env.local
-.env.*.local
-*.tsbuildinfo
+# =========================
+# OS / editor local files
+# =========================
 .DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Dependencies / build output
+# =========================
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# =========================
+# Logs / temporary files
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+
+# =========================
+# Environment / secrets
+# Keep examples and deployment docs tracked.
+# =========================
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# =========================
+# Deployment runtime data
+# =========================
+docker-data/
+nginx/logs/
+
+# Keep source, docs, agent instructions, Docker, and Nginx files tracked.
+!README.md
+!AGENTS.md
+!.agents/
+!docs/
+!Dockerfile
+!docker-compose.yml
+!.dockerignore
+!nginx.conf
