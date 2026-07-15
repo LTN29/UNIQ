@@ -54,7 +54,7 @@ export function LanguageSwitcher() {
                   'block w-full px-4 py-2 text-left text-sm transition-colors',
                   i18n.language === lang.code
                     ? 'bg-brand-red/10 text-brand-red font-medium'
-                    : 'text-graphite hover:bg-surface hover:text-brand-red'
+                    : 'text-graphite hover:bg-surface hover:text-brand-red',
                 )}
               >
                 {lang.label}

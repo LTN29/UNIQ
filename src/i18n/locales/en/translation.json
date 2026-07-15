@@ -128,7 +128,10 @@
   "newsSection": {
     "sectionTitle": "News & Events",
     "date": "July 14, 2026",
-    "n1": { "cat": "New Product", "title": "Launch of breakthrough cordless vacuum 2026" },
+    "n1": {
+      "cat": "New Product",
+      "title": "Launch of breakthrough cordless vacuum 2026"
+    },
     "n2": { "cat": "Tips & Tricks", "title": "5 ways to maintain appliance battery" },
     "n3": { "cat": "Event", "title": "UNIQ at tech expo" }
   },

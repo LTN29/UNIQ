@@ -75,14 +75,17 @@ export function TechnologySection() {
       className="py-24 md:py-40 bg-black text-pure-white overflow-hidden relative scroll-mt-24 min-h-screen flex items-center"
     >
       <div className="absolute inset-0 z-0 flex justify-end items-center">
-        <div ref={motorRef} className="relative w-full h-[70%] flex justify-end items-center">
-          <img 
-            src={IMAGES.motor} 
-            alt="Core Technology" 
+        <div
+          ref={motorRef}
+          className="relative w-full h-[70%] flex justify-end items-center"
+        >
+          <img
+            src={IMAGES.motor}
+            alt="Core Technology"
             className="w-full h-full object-contain object-right opacity-90"
           />
         </div>
-        
+
         {/* Optional gradient overlay to ensure text readability on mobile if image is too bright */}
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent lg:hidden pointer-events-none" />
       </div>
@@ -108,7 +111,7 @@ export function TechnologySection() {
             ))}
           </div>
         </div>
-        
+
         {/* Right column empty to let the background motor show through */}
         <div className="hidden lg:block"></div>
       </Container>

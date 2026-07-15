@@ -10,8 +10,13 @@ export function SiteFooter() {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-20">
           <div className="col-span-1 lg:col-span-2">
-            <a href="#top" className="inline-block mb-6 transition-opacity hover:opacity-80">
-              <span className="text-3xl font-display font-bold text-pure-white tracking-tight">UNIQ</span>
+            <a
+              href="#top"
+              className="inline-block mb-6 transition-opacity hover:opacity-80"
+            >
+              <span className="text-3xl font-display font-bold text-pure-white tracking-tight">
+                UNIQ
+              </span>
             </a>
             <p className="text-silver/70 max-w-sm text-sm leading-relaxed">
               {t('footer.desc')}
@@ -31,7 +36,10 @@ export function SiteFooter() {
                       className="text-silver/70 hover:text-brand-red text-sm transition-colors group inline-flex items-center gap-2"
                     >
                       {t(link.label)}
-                      <ArrowUpRight size={14} className="opacity-0 -translate-y-1 translate-x-1 transition-all group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0" />
+                      <ArrowUpRight
+                        size={14}
+                        className="opacity-0 -translate-y-1 translate-x-1 transition-all group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0"
+                      />
                     </a>
                   </li>
                 ))}

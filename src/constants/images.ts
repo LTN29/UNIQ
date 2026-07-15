@@ -1,14 +1,14 @@
-export const SUPABASE_BASE = 'https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/UNIQ_OPTIMIZED';
+export const SUPABASE_BASE = '/api-images';
 
 export const IMAGES = {
   // Global & Brand
   logo: `${SUPABASE_BASE}/uniq-logo---circle-with-color.webp`,
-  
+
   // Hero & Lifestyle Sections
   bannerLight: `${SUPABASE_BASE}/bannerlight.webp`,
   bannerDark: `${SUPABASE_BASE}/bannerdark.webp`,
   lifestyleHero: `${SUPABASE_BASE}/walllogoseries12.webp`,
-  
+
   // Technology Section
   motor: `${SUPABASE_BASE}/motor.webp`,
 
@@ -22,7 +22,7 @@ export const IMAGES = {
   // News Section
   news: [
     `${SUPABASE_BASE}/news1.webp`,
-    `${SUPABASE_BASE}/new3.webp`, 
+    `${SUPABASE_BASE}/new3.webp`,
     `${SUPABASE_BASE}/new3.webp`,
   ],
 

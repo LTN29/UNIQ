@@ -21,7 +21,7 @@ export function FeaturedProductSection() {
       // Desktop Marker Sync
       mm.add('(min-width: 1024px) and (prefers-reduced-motion: no-preference)', () => {
         const panels = gsap.utils.toArray('.feature-panel') as HTMLElement[];
-        
+
         // Split-text like reveal for heading
         if (headingRef.current) {
           gsap.fromTo(
@@ -36,13 +36,14 @@ export function FeaturedProductSection() {
                 trigger: sectionRef.current,
                 start: 'top 75%',
               },
-            }
+            },
           );
         }
 
         panels.forEach((panel, i) => {
           // Add fade up animation for each panel on desktop
-          gsap.fromTo(panel,
+          gsap.fromTo(
+            panel,
             { opacity: 0, y: 40 },
             {
               opacity: 1,
@@ -52,8 +53,8 @@ export function FeaturedProductSection() {
               scrollTrigger: {
                 trigger: panel,
                 start: 'top 85%',
-              }
-            }
+              },
+            },
           );
 
           ScrollTrigger.create({
@@ -67,7 +68,7 @@ export function FeaturedProductSection() {
 
         function updateVisual(index: number) {
           setActiveIndex(index);
-          
+
           // Subtle Red indicator
           gsap.to('.red-indicator', {
             y: index * 40,
@@ -81,7 +82,8 @@ export function FeaturedProductSection() {
       mm.add('(max-width: 1023px) and (prefers-reduced-motion: no-preference)', () => {
         const panels = gsap.utils.toArray('.feature-panel') as HTMLElement[];
         panels.forEach((panel) => {
-          gsap.fromTo(panel, 
+          gsap.fromTo(
+            panel,
             { y: 30, opacity: 0 },
             {
               y: 0,
@@ -92,7 +94,7 @@ export function FeaturedProductSection() {
                 trigger: panel,
                 start: 'top 85%',
               },
-            }
+            },
           );
         });
       });
@@ -103,15 +105,24 @@ export function FeaturedProductSection() {
   );
 
   return (
-    <section id="solutions" ref={sectionRef} className="relative bg-surface border-t border-border/50 scroll-mt-24 pt-24 pb-32 md:pt-32 md:pb-40">
+    <section
+      id="solutions"
+      ref={sectionRef}
+      className="relative bg-surface border-t border-border/50 scroll-mt-24 pt-24 pb-32 md:pt-32 md:pb-40"
+    >
       <Container className="grid lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-        
         {/* Visual Column (CSS Sticky on Desktop) */}
         <div className="lg:col-span-5 lg:sticky lg:top-32 flex flex-col justify-start z-10 h-auto lg:h-[calc(100vh-12rem)] pb-12 lg:pb-0">
-          
-          <h2 ref={headingRef} className="text-4xl md:text-5xl lg:text-6xl font-editorial italic font-light text-graphite leading-[1.1] tracking-tight mb-12 w-full lg:w-[180%] shrink-0 relative z-30">
-            {t('featured.title1')}<br />
-            <span className="font-display not-italic font-bold tracking-tighter">{t('featured.title2')}</span>{t('featured.title3')}
+          <h2
+            ref={headingRef}
+            className="text-4xl md:text-5xl lg:text-6xl font-editorial italic font-light text-graphite leading-[1.1] tracking-tight mb-12 w-full lg:w-[180%] shrink-0 relative z-30"
+          >
+            {t('featured.title1')}
+            <br />
+            <span className="font-display not-italic font-bold tracking-tighter">
+              {t('featured.title2')}
+            </span>
+            {t('featured.title3')}
           </h2>
 
           <div className="w-full aspect-[4/5] lg:aspect-auto lg:flex-1 relative min-h-[400px]">
@@ -153,7 +164,7 @@ export function FeaturedProductSection() {
                     0{index + 1} // 03
                   </span>
                 </div>
-                
+
                 <h3 className="text-3xl lg:text-5xl font-display font-semibold tracking-tight text-graphite mb-6 leading-tight">
                   {t(feature.title)}
                 </h3>

@@ -80,9 +80,7 @@ export function TrustBarSection() {
                   {IconComponent && <IconComponent strokeWidth={1.5} size={28} />}
                   <div className="absolute top-0 right-0 w-1.5 h-1.5 rounded-full bg-brand-red" />
                 </div>
-                <h3 className="text-sm font-semibold text-graphite">
-                  {t(item.title)}
-                </h3>
+                <h3 className="text-sm font-semibold text-graphite">{t(item.title)}</h3>
               </div>
             );
           })}

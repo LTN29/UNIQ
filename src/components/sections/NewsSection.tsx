@@ -21,7 +21,8 @@ export function NewsSection() {
           // Stagger articles
           const articles = gridRef.current.children;
 
-          gsap.fromTo(articles,
+          gsap.fromTo(
+            articles,
             { y: 40, opacity: 0 },
             {
               y: 0,
@@ -33,7 +34,7 @@ export function NewsSection() {
                 trigger: sectionRef.current,
                 start: 'top 75%',
               },
-            }
+            },
           );
 
           // Mask reveal for thumbnails
@@ -61,7 +62,11 @@ export function NewsSection() {
   );
 
   return (
-    <section id="news" ref={sectionRef} className="py-24 md:py-32 bg-pure-white scroll-mt-24">
+    <section
+      id="news"
+      ref={sectionRef}
+      className="py-24 md:py-32 bg-pure-white scroll-mt-24"
+    >
       <Container>
         <div className="flex justify-between items-end mb-12 border-b border-border pb-6">
           <h2 className="text-3xl md:text-5xl font-display font-bold text-graphite">
@@ -88,7 +93,11 @@ export function NewsSection() {
                     )}
                   >
                     {news.imageSrc ? (
-                      <img src={news.imageSrc} alt={t(news.title)} className="w-full h-full object-cover" />
+                      <img
+                        src={news.imageSrc}
+                        alt={t(news.title)}
+                        className="w-full h-full object-cover"
+                      />
                     ) : (
                       <VisualPlaceholder
                         variant="silver"
@@ -109,7 +118,9 @@ export function NewsSection() {
                     {t(news.category)}
                   </span>
                   <span className="w-1 h-1 rounded-full bg-silver" />
-                  <span className="text-sm text-muted-foreground font-medium">{t('newsSection.date')}</span>
+                  <span className="text-sm text-muted-foreground font-medium">
+                    {t('newsSection.date')}
+                  </span>
                 </div>
 
                 <h3

@@ -62,7 +62,10 @@ export function LifestyleSection() {
       className="py-24 md:py-40 bg-pure-white transition-colors duration-1000 scroll-mt-24"
     >
       <Container>
-        <div ref={textRef} className="max-w-4xl mx-auto text-center mb-16 md:mb-24 flex flex-col items-center">
+        <div
+          ref={textRef}
+          className="max-w-4xl mx-auto text-center mb-16 md:mb-24 flex flex-col items-center"
+        >
           <div className="w-12 h-[1px] bg-brand-red mb-10 opacity-50" />
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-editorial italic font-normal text-graphite leading-tight mb-8">
             {t('introSection.title')}

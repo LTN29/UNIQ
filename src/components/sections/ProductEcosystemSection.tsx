@@ -20,31 +20,33 @@ export function ProductEcosystemSection() {
       mm.add('(prefers-reduced-motion: no-preference)', () => {
         // Heading reveal
         if (headingRef.current) {
-          gsap.fromTo(headingRef.current, 
+          gsap.fromTo(
+            headingRef.current,
             { opacity: 0, y: 30 },
             {
-              opacity: 1, 
-              y: 0, 
-              duration: 1.2, 
+              opacity: 1,
+              y: 0,
+              duration: 1.2,
               ease: 'power3.out',
               scrollTrigger: {
                 trigger: sectionRef.current,
                 start: 'top 80%',
-              }
-            }
+              },
+            },
           );
         }
 
         if (itemsRef.current) {
           const items = Array.from(itemsRef.current.children);
-          
+
           items.forEach((item) => {
             const visual = item.querySelector('.editorial-visual');
             const content = item.querySelector('.editorial-content');
-            
+
             // Mask reveal for visuals (ultra-premium feel)
             if (visual) {
-              gsap.fromTo(visual,
+              gsap.fromTo(
+                visual,
                 { clipPath: 'inset(100% 0% 0% 0%)' },
                 {
                   clipPath: 'inset(0% 0% 0% 0%)',
@@ -53,14 +55,15 @@ export function ProductEcosystemSection() {
                   scrollTrigger: {
                     trigger: item,
                     start: 'top 75%',
-                  }
-                }
+                  },
+                },
               );
 
               // Subtle Image Parallax inside the mask
               const img = visual.querySelector('.visual-inner');
               if (img) {
-                gsap.fromTo(img, 
+                gsap.fromTo(
+                  img,
                   { scale: 1.1, y: 20 },
                   {
                     scale: 1,
@@ -71,15 +74,16 @@ export function ProductEcosystemSection() {
                       start: 'top bottom',
                       end: 'bottom top',
                       scrub: true,
-                    }
-                  }
+                    },
+                  },
                 );
               }
             }
 
             // Elegant content fade up
             if (content) {
-              gsap.fromTo(content,
+              gsap.fromTo(
+                content,
                 { opacity: 0, y: 20 },
                 {
                   opacity: 1,
@@ -90,8 +94,8 @@ export function ProductEcosystemSection() {
                   scrollTrigger: {
                     trigger: item,
                     start: 'top 85%',
-                  }
-                }
+                  },
+                },
               );
             }
           });
@@ -104,14 +108,21 @@ export function ProductEcosystemSection() {
   );
 
   return (
-    <section id="products" ref={sectionRef} className="py-32 md:py-48 bg-pure-white scroll-mt-24 overflow-hidden">
+    <section
+      id="products"
+      ref={sectionRef}
+      className="py-32 md:py-48 bg-pure-white scroll-mt-24 overflow-hidden"
+    >
       <Container>
         <div className="mb-24 lg:mb-40 flex justify-between items-end border-b border-border/50 pb-8">
           <h2
             ref={headingRef}
             className="text-4xl md:text-5xl lg:text-7xl font-editorial italic font-light text-graphite max-w-3xl leading-[1.1] tracking-tight"
           >
-            {t('ecosystemSection.title1')} <span className="font-display not-italic font-bold tracking-tighter">{t('ecosystemSection.title2')}</span>
+            {t('ecosystemSection.title1')}{' '}
+            <span className="font-display not-italic font-bold tracking-tighter">
+              {t('ecosystemSection.title2')}
+            </span>
           </h2>
           <div className="hidden lg:block text-brand-red font-mono text-sm tracking-widest uppercase mb-3">
             Ecosystem // 0{productEcosystemData.length}
@@ -122,13 +133,13 @@ export function ProductEcosystemSection() {
           {productEcosystemData.map((item, index) => {
             // Asymmetric layout logic based on index (Left/Right alternation)
             const isLeft = index % 2 === 0;
-            
+
             return (
               <div
                 key={item.id}
                 className={cn(
                   'group flex flex-col lg:flex-row items-center gap-12 lg:gap-24',
-                  !isLeft && 'lg:flex-row-reverse'
+                  !isLeft && 'lg:flex-row-reverse',
                 )}
               >
                 {/* Visual Column */}
@@ -162,15 +173,22 @@ export function ProductEcosystemSection() {
                   <h3 className="text-4xl lg:text-5xl font-display font-semibold tracking-tight text-graphite mb-6 transition-colors duration-500 group-hover:text-brand-red">
                     {t(item.title)}
                   </h3>
-                  
+
                   <p className="text-lg text-muted-foreground leading-relaxed font-light max-w-md mb-12">
                     {t(item.description)}
                   </p>
 
-                  <a href="#products" className="inline-flex items-center gap-4 font-mono text-xs uppercase tracking-widest text-graphite group-hover:text-brand-red transition-colors duration-300">
+                  <a
+                    href="#products"
+                    className="inline-flex items-center gap-4 font-mono text-xs uppercase tracking-widest text-graphite group-hover:text-brand-red transition-colors duration-300"
+                  >
                     <span className="relative overflow-hidden">
-                      <span className="block transition-transform duration-500 group-hover:-translate-y-full">{t('ecosystemSection.explore')}</span>
-                      <span className="absolute inset-0 block transition-transform duration-500 translate-y-full group-hover:translate-y-0">{t('ecosystemSection.explore')}</span>
+                      <span className="block transition-transform duration-500 group-hover:-translate-y-full">
+                        {t('ecosystemSection.explore')}
+                      </span>
+                      <span className="absolute inset-0 block transition-transform duration-500 translate-y-full group-hover:translate-y-0">
+                        {t('ecosystemSection.explore')}
+                      </span>
                     </span>
                     <span className="w-8 h-[1px] bg-graphite group-hover:bg-brand-red transition-colors duration-300 group-hover:w-12" />
                   </a>

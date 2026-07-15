@@ -11,4 +11,14 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  server: {
+    proxy: {
+      '/api-images': {
+        target:
+          'https://pmcewuonkfurdnkzptsg.supabase.co/storage/v1/object/public/images/UNIQ_OPTIMIZED',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api-images/, ''),
+      },
+    },
+  },
 });

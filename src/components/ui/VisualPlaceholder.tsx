@@ -33,18 +33,15 @@ export function VisualPlaceholder({
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!srcs || srcs.length <= 1 || !containerRef.current) return;
-    
+
     // Calculate the percentage of mouse position relative to the container width
     const rect = containerRef.current.getBoundingClientRect();
     const x = e.clientX - rect.left; // x position within the element
     const percentage = Math.max(0, Math.min(1, x / rect.width));
-    
+
     // Map percentage to array index
-    const frameIndex = Math.min(
-      Math.floor(percentage * srcs.length),
-      srcs.length - 1
-    );
-    
+    const frameIndex = Math.min(Math.floor(percentage * srcs.length), srcs.length - 1);
+
     setActiveFrame(frameIndex);
   };
 
@@ -67,9 +64,13 @@ export function VisualPlaceholder({
 
   if (srcs && srcs.length > 0) {
     return (
-      <div 
+      <div
         ref={containerRef}
-        className={cn('relative overflow-hidden w-full h-full cursor-ew-resize', variants[variant], className)} 
+        className={cn(
+          'relative overflow-hidden w-full h-full cursor-ew-resize',
+          variants[variant],
+          className,
+        )}
         onMouseMove={handleMouseMove}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -84,7 +85,7 @@ export function VisualPlaceholder({
             className={cn(
               'absolute inset-0 w-full h-full transition-opacity duration-150 ease-out',
               imageClasses,
-              index === activeFrame ? 'opacity-100 z-10 scale-105' : 'opacity-0 z-0'
+              index === activeFrame ? 'opacity-100 z-10 scale-105' : 'opacity-0 z-0',
             )}
           />
         ))}
@@ -94,7 +95,14 @@ export function VisualPlaceholder({
 
   if (src) {
     return (
-      <div className={cn('relative overflow-hidden w-full h-full', variants[variant], className)} {...props}>
+      <div
+        className={cn(
+          'relative overflow-hidden w-full h-full',
+          variants[variant],
+          className,
+        )}
+        {...props}
+      >
         <img
           src={src}
           alt={alt || label}
@@ -114,7 +122,9 @@ export function VisualPlaceholder({
       )}
       {...props}
     >
-      <span className="text-sm font-medium tracking-wide uppercase text-center px-4">{label}</span>
+      <span className="text-sm font-medium tracking-wide uppercase text-center px-4">
+        {label}
+      </span>
     </div>
   );
 }

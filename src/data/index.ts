@@ -115,10 +115,10 @@ export const newsData = [
     size: 'small',
     imageSrc: IMAGES.news[1],
   },
-  { 
-    id: '3', 
-    category: 'newsSection.n3.cat', 
-    title: 'newsSection.n3.title', 
+  {
+    id: '3',
+    category: 'newsSection.n3.cat',
+    title: 'newsSection.n3.title',
     size: 'small',
     imageSrc: IMAGES.news[2],
   },

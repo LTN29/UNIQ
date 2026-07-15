@@ -106,7 +106,7 @@ export function SiteHeader() {
               <span className="absolute bottom-1 left-0 w-0 h-[1px] bg-brand-red transition-all duration-300 group-hover:w-full group-focus-visible:w-full" />
             </a>
           ))}
-          
+
           <div className="flex items-center gap-3 ml-2">
             <LanguageSwitcher />
             <a
@@ -135,7 +135,7 @@ export function SiteHeader() {
             className="inline-flex size-10 items-center justify-center rounded-md text-graphite focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-red"
             aria-expanded={isMobileMenuOpen}
             aria-controls="mobile-menu"
-            aria-label={isMobileMenuOpen ? "Đóng menu điều hướng" : "Mở menu điều hướng"}
+            aria-label={isMobileMenuOpen ? 'Đóng menu điều hướng' : 'Mở menu điều hướng'}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -144,7 +144,7 @@ export function SiteHeader() {
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div 
+        <div
           id="mobile-menu"
           className="fixed inset-0 top-[60px] z-40 bg-pure-white px-6 py-8 lg:hidden flex flex-col gap-6 overflow-y-auto"
         >

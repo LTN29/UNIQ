@@ -128,7 +128,10 @@
   "newsSection": {
     "sectionTitle": "Tin tức & Sự kiện",
     "date": "14 Tháng 7, 2026",
-    "n1": { "cat": "Sản phẩm mới", "title": "Ra mắt thế hệ máy hút bụi không dây đột phá 2026" },
+    "n1": {
+      "cat": "Sản phẩm mới",
+      "title": "Ra mắt thế hệ máy hút bụi không dây đột phá 2026"
+    },
     "n2": { "cat": "Tips & Tricks", "title": "5 cách bảo quản pin thiết bị gia dụng" },
     "n3": { "cat": "Sự kiện", "title": "UNIQ tại triển lãm công nghệ" }
   },
@@ -137,7 +140,10 @@
     "title1": "Đồng hành cùng bạn trong từng khoảnh khắc ",
     "title2": "trải nghiệm.",
     "explore": "Khám phá",
-    "s1": { "title": "Kích hoạt bảo hành", "desc": "Kích hoạt nhanh chóng quyền lợi của bạn." },
+    "s1": {
+      "title": "Kích hoạt bảo hành",
+      "desc": "Kích hoạt nhanh chóng quyền lợi của bạn."
+    },
     "s2": { "title": "Kiểm tra hạn bảo hành", "desc": "Tra cứu thông tin thiết bị." },
     "s3": { "title": "Theo dõi phiếu bảo hành", "desc": "Cập nhật tiến độ sửa chữa." }
   },

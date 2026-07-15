@@ -64,14 +64,25 @@ export function AppEcosystemSection() {
   );
 
   return (
-    <section id="app" ref={sectionRef} className="py-24 md:py-32 bg-surface overflow-hidden scroll-mt-24">
+    <section
+      id="app"
+      ref={sectionRef}
+      className="py-24 md:py-32 bg-surface overflow-hidden scroll-mt-24"
+    >
       <Container className="grid lg:grid-cols-2 gap-16 items-center">
         <div>
           <h2 className="text-sm font-mono tracking-widest text-brand-red uppercase mb-6">
-            {t('appSection.subtitle1')} <span className="lowercase normal-case italic text-muted-foreground font-sans tracking-normal ml-2">{t('appSection.subtitle2')}</span>
+            {t('appSection.subtitle1')}{' '}
+            <span className="lowercase normal-case italic text-muted-foreground font-sans tracking-normal ml-2">
+              {t('appSection.subtitle2')}
+            </span>
           </h2>
           <p className="text-3xl md:text-5xl lg:text-6xl font-display font-light text-graphite mb-8 leading-[1.1] max-w-xl">
-            {t('appSection.title1')}<span className="font-editorial italic text-graphite/90">{t('appSection.title2')}</span>{t('appSection.title3')}
+            {t('appSection.title1')}
+            <span className="font-editorial italic text-graphite/90">
+              {t('appSection.title2')}
+            </span>
+            {t('appSection.title3')}
           </p>
           <p className="text-lg text-muted-foreground font-light mb-12 max-w-md leading-relaxed">
             {t('appSection.desc')}
@@ -90,7 +101,7 @@ export function AppEcosystemSection() {
               {
                 title: t('appSection.f3.title'),
                 desc: t('appSection.f3.desc'),
-              }
+              },
             ].map((item, i) => (
               <div
                 key={i}
@@ -98,7 +109,7 @@ export function AppEcosystemSection() {
               >
                 {/* Background sweep on hover */}
                 <div className="absolute inset-0 bg-pure-white/80 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] z-0" />
-                
+
                 <div className="relative z-10 flex flex-col md:flex-row md:items-start gap-4 md:gap-8">
                   <span className="text-xs font-mono text-muted-foreground w-8 shrink-0 group-hover:text-brand-red transition-colors duration-500 pt-1">
                     0{i + 1}
@@ -127,7 +138,11 @@ export function AppEcosystemSection() {
           >
             {/* Screen */}
             <div className="w-full h-full bg-pure-white rounded-[2.5rem] overflow-hidden relative flex flex-col items-center justify-center">
-              <img src={IMAGES.logo} alt="UNIQ App Logo" className="w-28 h-28 object-contain" />
+              <img
+                src={IMAGES.logo}
+                alt="UNIQ App Logo"
+                className="w-28 h-28 object-contain"
+              />
             </div>
           </div>
         </div>
