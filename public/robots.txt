@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://uniq-home.com/sitemap.xml
+Sitemap: https://uniqvietnam.com/sitemap.xml

@@ -4,6 +4,7 @@ import { initReactI18next } from 'react-i18next';
 import enTranslation from './locales/en/translation.json';
 import jaTranslation from './locales/ja/translation.json';
 import viTranslation from './locales/vi/translation.json';
+import { getInitialLanguage } from './domainLocale';
 
 const resources = {
   en: {
@@ -19,8 +20,9 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: 'en', // default language
+  lng: getInitialLanguage(),
   fallbackLng: 'en',
+  supportedLngs: ['en', 'ja', 'vi'],
   interpolation: {
     escapeValue: false, // react already safes from xss
   },

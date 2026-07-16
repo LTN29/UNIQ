@@ -1,4 +1,4 @@
-const siteUrl = import.meta.env.VITE_SITE_URL ?? 'http://localhost:5173';
+const siteUrl = import.meta.env.VITE_SITE_URL ?? 'https://uniq-home.com';
 
 export const siteConfig = {
   name: 'UNIQ Home',

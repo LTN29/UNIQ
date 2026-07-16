@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { SiteFooter } from '@/components/layout/SiteFooter';
 import { SiteHeader } from '@/components/layout/SiteHeader';
+import { SeoManager } from '@/components/seo/SeoManager';
 import { ScrollProgress } from '@/components/ui/ScrollProgress';
 import { HeroSection } from '@/components/sections/HeroSection';
 import { TrustBarSection } from '@/components/sections/TrustBarSection';
@@ -43,6 +44,7 @@ const NewsSection = React.lazy(() =>
 export function App() {
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
+      <SeoManager />
       <ScrollProgress />
       <SiteHeader />
       <main className="flex-1">
